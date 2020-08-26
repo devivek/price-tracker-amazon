@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="80dp"
+            android:id="@+id/Spinner" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/Spinner"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/PriceText"
+            android:background="@android:color/transparent"/>
+
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/PriceText"
+            android:layout_centerHorizontal="true"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:layout_marginTop="40dp"
+            android:id="@+id/SaveButton"/>
+
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
